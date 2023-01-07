@@ -31,15 +31,15 @@ section {
 
 }
 
-/*--------header css ---------- */
-.header {}
+/*--------banner css ---------- */
+
 
 .banner {
     background-image: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
-    background-position: cover;
+    background-position: cover ;
     height: 900px;
-    width: auto;
+    width: 100%;
     display: flex;
     justify-content: center;
 
@@ -137,7 +137,7 @@ section {
 
 /* ------motivation style------- */
 .motivation-container {
-    background: url(/images/watch.png);
+    background: url(../images/watch.png);
     width: 1140px;
     height: 300px;
     margin: 30px 100px;
