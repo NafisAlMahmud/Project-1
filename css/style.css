@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #F15B22;
+    color: #ffffff;
+    height: 64px;
+    width: 160px;
+    left: 1210px;
+    top: 578px;
+    border-radius: 5px;
+    margin-left: 800px;
+    margin-top: 100px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+
+/*--------header css ---------- */
+.header {}
+
+.banner {
+    background-image: url(/images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 900px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.banner .banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    margin-left: 800px;
+    padding-top: 200px;
+    margin-bottom: 24px;
+
+
+}
+
+.banner .banner-des {
+    font-weight: 400;
+    font-size: 16px;
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    left: 800px;
+}
+
+/* -----failures style---------- */
+
+.failures {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+
+}
+
+.failures .failures-img {
+    margin-right: 720px;
+}
+
+.failures .failures-text {
+    position: absolute;
+    width: 415px;
+    height: 862px;
+    top: 1100px;
+    margin-left: 750px;
+    text-align: left;
+}
+.failures .failures-text ul i{
+    padding: 0px 10px;
+}
+
+
+.failures .failures-text .failures-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+    margin-left: 50px;
+
+}
+
+.failures .failures-text .failures-des {
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 50px;
+}
+
+.failures .failures-text .list {
+    font-weight: 600;
+    font-size: 16px;
+    color: #444343;
+}
+
+/* -----my plans------- */
+.plans-container {
+    display: flex;
+    justify-content: center;
+}
+
+.my-plans-title {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plan {
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+.plan p {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* ------motivation style------- */
+.motivation-container {
+    background: url(/images/watch.png);
+    width: 1140px;
+    height: 300px;
+    margin: 30px 100px;
+
+}
+
+.motivation-text {
+    position: absolute;
+    padding: 50px 100px;
+    width: 459px;
+    height: 182px;
+}
+
+.color-overlay {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    width: 100%;
+    height: 100%;
+
+}
+
+.btn-call-now {
+    border-radius: 5px;
+    margin-top: 16px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #F15B22;
+    height: 64px;
+    width: 160px;
+    border: 0px;
+    margin-right: 320px;
+
+
+}
+
+.motivation-text .motivation-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: left;
+
+}
+
+/* --------footer css----------- */
+
+.footer {
+    color: #ffffff;
+    display: flex;
+    background: #151414;
+    padding: 130px 230px;
+    gap: 100px;
+    margin-top: 130px;
+
+}
+
+.footer .future {
+    width: 485px;
+    text-align: left;
+}
+
+.footer .future .future-title {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 45px;
+
+}
+
+.footer .future p {
+    margin-bottom: 24px;
+}
+
+.footer .future a {
+    text-decoration: none;
+    padding-right: 11px;
+}
+
+.btn-sub {
+    background-color: #ffffff;
+    color: #F15B22;
+    height: 64px;
+    width: 160px;
+    border-radius: 5px;
+    margin-top: 16px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 190px;
+
+
+}
+
+.footer .sub {
+    margin-bottom: 31px;
+    display: flex;
+    align-items: left;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.footer input,
+textarea {
+    background-color: transparent;
+    width: 325px;
+    height: 64px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding-left: 18px;
+}
